@@ -5,11 +5,6 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///new-books-collection.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False
 db = SQLAlchemy(app)
-# cursor.execute("CREATE TABLE books (id INTEGER PRIMARY KEY,title varchar(250) NOT NULL UNIQUE,"
-#                "author varchar(250) NOT NULL,rating Float Not Null)"
-#                )
-
-
 
 
 #CREATE TABLE
